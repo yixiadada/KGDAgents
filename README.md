@@ -1,3 +1,3 @@
 # KGDAgents
 
-Our code will be public after acceptance.
+Our code will be public after accepted.
