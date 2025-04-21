@@ -9,18 +9,16 @@ from save_to_csv import save_evaluation_to_csv,save_final_to_csv,create_output_d
 
 
 def main():
-    data_address = "data\split_patients\patients(1).json"
-    data_name = "patients(1)"
-    doctor_model_name = 'qwen-turbo'
-    # 新的,3.5
-    # openai_api_key = 'sk-QU8ZXyf3Wu7B559A872203934cDa45C0AaCbE8AbE0F38459'  # 还剩1快多
-    doctor_api_key = 'sk-49e6df3cfed948499ada085187e996e3'    
-    doctor_api_base = 'https://dashscope.aliyuncs.com/compatible-mode/v1'
-    patient_api_key = 'sk-s9nZKxNTac1GhEkZ92736fF1EaD2420bA5A5E9B6554eFbD7'   # 120额度
-    patient_api_base = 'https://api.xty.app/v1'
-    eva_openai_api_key = 'sk-s9nZKxNTac1GhEkZ92736fF1EaD2420bA5A5E9B6554eFbD7'
-    eva_openai_api_base = 'https://api.xty.app/v1'
-    output_dir = "output\gpt3.5_500条"
+    data_address = ""
+    data_name = ""
+    doctor_model_name = ''
+    doctor_api_key = ''    
+    doctor_api_base = ''
+    patient_api_key = ''   
+    patient_api_base = ''
+    eva_openai_api_key = ''
+    eva_openai_api_base = ''
+    output_dir = ""
     data = dataload(data_address)
     red_color = '\033[31m'
     init_color = '\033[0m'
