@@ -14,7 +14,7 @@ def main():
     doctor_model_name = ''
     doctor_api_key = ''    
     doctor_api_base = ''
-    patient_api_key = ''   # 120额度
+    patient_api_key = ''  
     patient_api_base = ''
     eva_openai_api_key = ''
     eva_openai_api_base = ''
