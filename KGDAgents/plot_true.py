@@ -1,4 +1,4 @@
-#file:d:\cyh\研究生\项目实战\new_agent_kg 12.12\plot_csv.py
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import re
@@ -113,13 +113,3 @@ class HistoricalScorePlotter:
         with open(data_path, 'w', encoding='utf-8') as f:
             json.dump(all_data, f, indent=4, ensure_ascii=False)
         print(f"数据已保存至: {data_path}")
-
-# 使用示例
-if __name__ == "__main__":
-    # 设置文件路径
-    csv_file = "output\gpt3.5_500条\output_20241223_gpt-3.5-turbo-1106(1)\evaluation_results_20241223_gpt-3.5-turbo-1106.csv"
-    output_dir = "output"
-    
-    # 创建绘图器并绘制图形
-    plotter = HistoricalScorePlotter()
-    plotter.plot_scores(csv_file, output_dir)
